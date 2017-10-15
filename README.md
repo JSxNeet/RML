@@ -12,7 +12,7 @@
 
 - This syntax is flexible. Why? It is possible to redefine operators
 
-##example syntax
+## example syntax
 ```ruby
 Okabe Rin => El Psy Congroo
 Spike Spiegel => See you space cowboy
