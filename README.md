@@ -36,4 +36,4 @@ p rml
 ```
 
 ###### Output:
-> {"OkabeRin" => "El Psy Congroo", "SpikeSpiegel" => "See you space cowboy", "Kirito" => "Asuna!", "Okabe age" => 18, "Shed" => "a12","Number of patches" => 3}
+> {"OkabeRin" => "El Psy Congroo", "SpikeSpiegel" => "See you space cowboy", "Kirito" => "Asuna!", "Okabe age" => 18, "Shed" => "a12","Number of patches" => 12}
