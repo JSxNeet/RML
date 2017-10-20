@@ -15,7 +15,7 @@ module Parseable
   def self.array(assigment,array_operator,line,parse_tree)
     
     array_value = line.split(assigment).pop.strip.split(" ")
-    array_value.delete(",") { "error" }
+    array_value.delete(",")
     array_value.collect! { |element| element.delete(",").delete("|").strip }
   
     self.create_array(parse_tree,line,array_value,assigment)
