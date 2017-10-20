@@ -1,4 +1,4 @@
-# RML [Ruby Markup Language] ver 0.1.3
+# RML [Ruby Markup Language] ver 0.2.2
 
 ## Description
 
