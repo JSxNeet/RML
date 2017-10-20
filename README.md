@@ -1,16 +1,20 @@
 # RML [Ruby Markup Language] ver 0.1.3
 
-## New in ver 0.2.1
+## Description
 
-- Added variable class "array"
-- Added the ability to define an array operator
+RML (Ruby Markup Language) is a flexible tool for storing data in the file system. At this point, he understands data types such as string, number, boolean, and one-dimensional arrays.
 
-## About syntax
+## New in ver 0.2.2
 
-- This syntax is flexible. Why? It is possible to redefine operators
-- Only simple array
+- Added data type "Boolean".
+- The code is divided into many subroutines, in order to increase its readability.
+- The code forgave a small refactoring.
+- Fixed a bug with the counting of an array by a string, if indent before the beginning and after the end of the enumeration.
 
-## example syntax
+## Qick start
+
+#### example.rml
+
 ```ruby
 Okabe Rin => El Psy Congroo
 Spike Spiegel => See you space cowboy
@@ -21,7 +25,7 @@ Number of patches => 12 patch
 patch => | Hello , 1 |
 ```
 
-## Example code
+#### main.rb
 
 ```ruby
 require_relative "../module/version 0.2.1/verification_syntax"
@@ -33,5 +37,5 @@ parser_tree =  Parser.syntax("example.rml", "=>", "|", err_count)
 p rml
 ```
 
-###### Output:
+#### Output:
 > {"Okabe Rin"=>"El Psy Congroo", "Spike Spiegel"=>"See you space cowboy", "Kirito"=>"Asuna!", "Okabe age"=>18, "Shed"=>"a12", "Number of patches"=>12, "patch"=>["Hello", 1]}
