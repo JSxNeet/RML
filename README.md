@@ -21,8 +21,10 @@ Spike Spiegel => See you space cowboy
 Kirito => Asuna!
 Okabe age => 18
 Shed => a12
+Bool => true
+Boolean => false
 Number of patches => 12 patch
-patch => | Hello , 1 |
+patch1 => |Hello , 1, true, false|
 ```
 
 #### main.rb
@@ -38,4 +40,6 @@ p rml
 ```
 
 #### Output:
-> {"Okabe Rin"=>"El Psy Congroo", "Spike Spiegel"=>"See you space cowboy", "Kirito"=>"Asuna!", "Okabe age"=>18, "Shed"=>"a12", "Number of patches"=>12, "patch"=>["Hello", 1]}
+> {"Okabe Rin"=>"El Psy Congroo", "Spike Spiegel"=>"See you space cowboy", "Kirito"=>"Asuna!", "Okabe
+age"=>18, "Shed"=>"a12", "Bool"=>true, "Boolean"=>false, "Number of patches"=>12, "patch1"=>["Hello"
+, 1, true, false]}
